@@ -8,7 +8,7 @@ import Busca from "../pages/busca";
 import Cadastro from "../pages/cadastro";
 import ConfigUsuario from "../pages/configUsuario"
 import Filmes from "../pages/filmes";
-
+import Series from "../pages/series";
 
 function Rotas() {
   return (
@@ -21,6 +21,7 @@ function Rotas() {
         <Route element={<Cadastro />} path="/cadastro" />
         <Route element={<ConfigUsuario />} path="/configUsuario" />
         <Route element={<Filmes />} path="/filmes" />
+        <Route element={<Series />} path="/series" />
       </Routes>
     </BrowserRouter>
   )
