@@ -7,7 +7,7 @@ import Adm from "../pages/adm";
 import Busca from "../pages/busca";
 import Cadastro from "../pages/cadastro";
 import ConfigUsuario from "../pages/configUsuario"
-
+import Filmes from "../pages/filmes";
 
 
 function Rotas() {
@@ -20,6 +20,7 @@ function Rotas() {
         <Router element = {<Busca /> } path="/busca" />
         <Router element = {<Cadastro /> } path="/cadastro" />
         <Router element = {<ConfigUsuario /> } path="/configUsuario" />
+        <Router element = {<Filmes /> } path="/filmes" />
       </Routes>
     </BrowserRouter>
   )
