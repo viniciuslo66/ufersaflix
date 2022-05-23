@@ -1,9 +1,9 @@
-import React,{Component} from 'react';
+import React, { Component } from 'react';
 import carouselImg from '../assets/carroussel.jpg';
 
 class CarouselSlideCard extends Component {
     render() {
-        return(
+        return (
             <div>
                 <img src={carouselImg} className="d-block w-100" alt="..." />
                 <div className="carousel-caption d-none d-md-block">
