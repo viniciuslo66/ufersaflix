@@ -6,7 +6,7 @@ import Home from "../pages/home";
 import Adm from "../pages/adm";
 import Busca from "../pages/busca";
 import Cadastro from "../pages/cadastro";
-import ConfigUsuario from "..pages/configUsuario"
+import ConfigUsuario from "../pages/configUsuario"
 
 
 
