@@ -16,3 +16,5 @@ class buscaTelaAdm extends Component {
         )
     }
 }
+
+export default buscaTelaAdm;
