@@ -1,8 +1,8 @@
-import React,{ Component } from "react";
+import React, { Component } from "react";
 
 class buscaTelaAdm extends Component {
     render() {
-        return(
+        return (
             <form>
                 <div className="row align-items-center">
                     <div className="d-flex">
