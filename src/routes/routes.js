@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Router, BrowserRouter, Routes } from "react-router-dom";
+import { Route, BrowserRouter, Routes } from "react-router-dom";
 
 import Login from "../pages/login";
 import Home from "../pages/home";
@@ -11,16 +11,16 @@ import Filmes from "../pages/filmes";
 
 
 function Rotas() {
-  return(
+  return (
     <BrowserRouter>
       <Routes>
-        <Router element = {<Login /> } path="/" exact />
-        <Router element = {<Home /> } path="/entrada" />
-        <Router element = {<Adm /> } path="/adm" />
-        <Router element = {<Busca /> } path="/busca" />
-        <Router element = {<Cadastro /> } path="/cadastro" />
-        <Router element = {<ConfigUsuario /> } path="/configUsuario" />
-        <Router element = {<Filmes /> } path="/filmes" />
+        <Route element={<Home />} path="/" exact />
+        <Route element={<Login />} path="/login" />
+        <Route element={<Adm />} path="/adm" />
+        <Route element={<Busca />} path="/busca" />
+        <Route element={<Cadastro />} path="/cadastro" />
+        <Route element={<ConfigUsuario />} path="/configUsuario" />
+        <Route element={<Filmes />} path="/filmes" />
       </Routes>
     </BrowserRouter>
   )
