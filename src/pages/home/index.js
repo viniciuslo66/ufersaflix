@@ -43,7 +43,6 @@ class Home extends Component {
                 <h2 style={{ color: "white" }}>Populares: </h2>
                 <br />
                 <CarouselContainer />
-
             </div>
         )
     }
