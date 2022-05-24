@@ -16,7 +16,7 @@ function Adm(){
             <Container fluid>
                 <div>
                 <NavbarAdm/>
-                <BotoesNavegacao/>
+                {/*<BotoesNavegacao/>*/}
                     <Form>
                         <Row className="align-items-center">
                             <Col sm={3} className="my-1">

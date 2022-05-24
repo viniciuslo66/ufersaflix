@@ -28,7 +28,7 @@ class NavbarUser extends Component {
                             </ul>
                             <form className="d-flex">
                                 <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                                <button className="btn btn-primary" type="submit">Pesquisar</button>
+                                <button className="btn btn-primary" type="submit"><a href="/busca">Pesquisar</a></button>
                             </form>
                             <ul className="navbar-nav" style={{ height: "40px" }}>
                                 <li className="nav-item dropdown">

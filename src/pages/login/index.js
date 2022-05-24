@@ -1,9 +1,11 @@
 import React from "react";
 import logoImage from '../../assets/LOGOloginpng.png';
+import { Container } from "react-bootstrap";
 
 function Login() {
     return(
         <div style={{backgroundColor:"#393939"}}>
+            <Container fluid>
             <div className="container">
                 <div className="sidenav">
                     <div className="login-main-text">
@@ -32,7 +34,7 @@ function Login() {
                                 </a>
                                 <br />
                                 <div className="d-grid gap-2 col-6 mx-auto">
-                                    <button id="botaoEntrar" className="btn btn-primary" type="button">ENTRAR</button>
+                                    <button id="botaoEntrar" className="btn btn-primary" type="button"><a href="/">ENTRAR</a></button>
                                     <button className="btn btn-primary" type="button" data-bs-toggle="modal"
                                         data-bs-target="#cadastrar">CADASTRAR</button>
                                         <div className="modal fade" id="cadastrar" tabIndex="-1" aria-labelledby="cadastrar"
@@ -78,6 +80,7 @@ function Login() {
                     </div>
                 </div>
             </div>
+            </Container>
         </div>
     );
 }
